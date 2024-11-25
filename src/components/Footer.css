@@ -1,0 +1,38 @@
+.footer {
+    background: #3a1c71;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-sizing: border-box;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #ffaf7b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Ensure the body has padding at the bottom to account for the fixed footer */
+  body {
+    margin-bottom: 80px;
+  }
+  

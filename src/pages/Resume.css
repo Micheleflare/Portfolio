@@ -1,0 +1,43 @@
+.resume {
+  padding: 40px 20px;
+  background-color: #e1e5ee;
+  color: #333;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.resume h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+.resume a {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.resume a:hover {
+  text-decoration: underline;
+}
+
+.resume h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.resume ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume li {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
